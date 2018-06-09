@@ -1,0 +1,27 @@
+设计模式
+--callback  回掉模式
+  --CalbackApi.java    回掉接口
+  --CalService.java    回掉服务类
+  --Client.java        回掉客户端
+  --CalMain.java       回掉测试类
+  
+--factory  静态工厂
+  --Service.java       服务接口
+  --Provider.java      服务制造者接口
+  --Services.java      总提供服务类
+  
+--formwork  模板模式(乘法表模板)
+  --Iterator.java      动作模板抽象类
+  --IAction.java
+  --JAction.java
+  --FormworkMain.java   模板测试类
+  
+--garnish   装饰模式
+  --Request.java        请求接口
+  --RequestImpl.java    请求实现
+  --RequestFactory.java 请求工厂
+  --RequestGrnish.java  请求装饰
+  --GarnishMain.java    请求测试 
+--single    单例模式
+  --HungerSingleton.java饿汉式单例模式
+  --LazySingleton.java  懒汉式单例模式

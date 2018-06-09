@@ -1,0 +1,14 @@
+java核心
+--annotation    注解
+  --TestClass.java         自定义作用于类的注解
+  --TestMethod.java        自定义作用于方法的注解
+  --TestAnnotation.java    自定义注解测试
+--reflect       泛型
+  --GenericPrinciple.java  泛型的原理
+--thread        线程
+  --CreateThread.java      线程的创建方法
+  --TestCallable.java      带有返回值的线程
+  --TestJoin.java          线程join方法
+  --TestPriorityLevel.java 线程的优先级别
+  --TestSleep.java         线程sleep方法
+  --TestYield.java         线程yield方法
