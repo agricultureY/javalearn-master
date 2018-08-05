@@ -1,0 +1,20 @@
+Java虚拟机核心知识点学习代码兼测试案例
+包目录：
+	├── com.demo.jvmcore.classloader		// 类加载器
+	├── com.demo.javacore.heap		// 堆
+	├── com.demo.javacore.memory		// 内存
+	├── com.demo.javacore.stack		// 栈
+详细目录：
+	├── com.demo.jvmcore.classloader	// 类加载器
+	├── 	ClassLoaderInfoT.java		// 打印类加载器信息
+	├── 	InitMain.java				// 子类的初始化过程和主动引用
+	├── 	StringCL.java				// 类加载 - Class.forName
+	├── 	UseFinalField.java			// Final字段不会被引起初始化
+	├── com.demo.jvmcore.heap			// 堆
+	├── 	JvmXmxArgs.java				// 打印堆内存
+	├── com.demo.jvmcore.memory		// 内存
+	├── 	FloatInJvm.java				// 输出浮点数在虚拟机的实际表示
+	├── 	IntegerInJvm.java			// 负整形数在Jvm中的表示
+	├── com.demo.jvmcore.stack		// 栈
+	├── 	LocalVarGC.java				// 打印GC信息
+	├── 	StackDeep.java				// 堆溢出的理解

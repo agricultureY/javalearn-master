@@ -1,7 +1,11 @@
 package com.demo.jvmcore.stack;
 /**
  * 打印GC信息
- * @author yy
+ * 	-XX:+PrintGCDetails
+ * 
+ * @Package: com.demo.jvmcore.stack
+ * @author: ycn
+ * @date: 2018年7月27日 下午2:20:27
  */
 public class LocalVarGC {
 

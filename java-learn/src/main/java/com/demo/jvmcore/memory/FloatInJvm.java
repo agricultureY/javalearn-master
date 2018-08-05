@@ -6,7 +6,7 @@ package com.demo.jvmcore.memory;
 public class FloatInJvm {
 
 	public static void main(String[] args) {
-		float a = 3.1f;
+		float a = 3.111f;
 		System.out.println(Integer.toBinaryString(Float.floatToRawIntBits(a)));
 	}
 }
